@@ -1,7 +1,13 @@
-# Jauregui Flores César Gabriel, semestre 2 Grupo B, Facultad de ingenieria mecanica y electrica, ingenieria en computacion inteligente, Universidad de Colima
-## Portafolio segunda parcial, programacion en dart y sus respectivos diagramas de clase
+# Universidad de Colima
+# Facultad de ingenieria mecanica y electrica
+### Ingenieria en Computacion Inteligente
+### Jauregui Flores César Gabriel
+### Semestre 2 Grupo B
+
+## Portafolio segunda parcial
+### Programas en dart hechos en clase y sus respectivos diagramas de clase
 ### Ejercicio 1.-
-dart
+```dart
 void main() {
   //instancia es como una copia de la clase
   var e1 = Estudiante();
@@ -79,13 +85,13 @@ void reporte(Animal a) {
   print("Sonido: ${a.sonido}");
 }
  */
-
+```
  ### Diagrama de clase
 ![diagrama 19 03 23](https://github.com/cjau01/Semestre-2/assets/113397533/b7f2c5ad-523e-45b0-b7f6-7e4cc8cf5f3e)
 
-
+```dart
 ## EJERCICIO 2.-
-dart
+
 //import 'animal.dart';
 /*import 'animal.dart';
 
@@ -134,13 +140,13 @@ class Persona{
     this.aNac = aNac;
   }
 }
-
+```
 ### Diagrama de clase
 ![diagrama 20 04 23](https://github.com/cjau01/Semestre-2/assets/113397533/b401c29f-a496-43cf-9108-73c247872603)
 
-
+```dart
 ## Ejercicio 3.-
-dart
+
 /*Escriba un programa que tenga una clase Figura
 Que tenga dos propiedades: base, altura
 y dos metodos que calculen el area y el perimetro de un rectangulo
@@ -194,14 +200,13 @@ class Figura{
     return base! * base!;
   }
 }
-
+```
 ### Diagrama de clase
 ![diagrama 26 04 23](https://github.com/cjau01/Semestre-2/assets/113397533/b49925ab-520e-4c9d-b9d3-0dfff6825f4a)
 
-
-
+```dart
 ## Ejercicio 4.- codigo 1:
-dart
+
 import 'shape.dart';
 
 void main(List<String> args) {
@@ -298,14 +303,14 @@ class Vehiculo {
     );
   }
 }
-
+```
 
 ### DIagrama de clase
 ![diagrama27 04 23](https://github.com/cjau01/Semestre-2/assets/113397533/53f8bcb6-4d33-4073-84cc-020be4de58d2)
 
-  
+```dart 
 ## Ejercicio 5.-
-dart
+
 void main(List<String> args) {
   Animal a1 = Animal("Vaca", 10);
   a1.showAnimal();
@@ -344,14 +349,14 @@ class Animal {
     print("Cantidad de tipos de animales: $counterStatic");
   }
 }
-
+```
 
 ### Diagrma de clase
 ![diagrama 3 05 23](https://github.com/cjau01/Semestre-2/assets/113397533/42778e27-41a5-4cfd-844b-7d669d111b71)
 
-
+```dart
 ## Ejercicio 6.-
-dart
+
 import 'animal.dart';
 import 'pato.dart';
 import 'vaca.dart';
@@ -428,14 +433,14 @@ class Vaca extends Animal {
   }
 
 }
-
+```
 
 ### Diagrama de clase
 ![diagrama 4 05 23](https://github.com/cjau01/Semestre-2/assets/113397533/09c1bb7c-a0b5-442a-872a-3cfb9d5d8e81)
 
-
+```dart
 ## Ejercicio 7.-
-dart
+
 void main(List<String> args) {
   final vehiculo = Vehiculo('Rojo', 100);
   vehiculo.showVehiculo();
@@ -505,14 +510,14 @@ class Carro extends Vehiculo{
     print('Tipo: $_tipo');
   }
 }
-
+```
 
 ### Diagrama de clase
 ![diagrama 17 05 23](https://github.com/cjau01/Semestre-2/assets/113397533/6ac14c40-d0ea-4047-a1ba-1bc58899e3ee)
 
-
+```dart
 ## Ejercicio 8.-
-dart
+
 // Interfaces
 // Interfaces are a way to define a contract on a class.
 // Dart does not have syntax for declaring interfaces.
@@ -548,7 +553,7 @@ class Television implements ControlRemoto {
     print('Bajar Volumen de la TV');
   }
 }
-
+```
 
 ### Diagrama de clase
 ![diagrama 18 05 23](https://github.com/cjau01/Semestre-2/assets/113397533/4eb6889a-4886-4d76-876f-0c3af32339f7)
